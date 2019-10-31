@@ -1,0 +1,23 @@
+.first{
+    /* background-color: #004080; */
+    color: white;
+  height: 96vh;
+}
+
+.icons-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    margin: 10px;
+}
+.firstClass{
+    background-color: #004080;
+}
+
+.secondClass{
+    background-color: #2a4e35;
+}

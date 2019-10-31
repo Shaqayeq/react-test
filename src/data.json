@@ -1,0 +1,72 @@
+{
+    "title": "Hello I`m Shaqayeq",
+    "subtitle": "Full Stack Dev | Open-Source Enthusiast",
+    "links": {
+        "github": "https://github.com/Shaqayeq",
+        "stackoverflow": "https://stackoverflow.com/users/5681051/shaqayeq",
+        "linkedin": "https://www.linkedin.com/in/shaghayegh-shakerzadeh-63b07369/"
+    },
+    "sections": [
+        {
+            "title": "About",
+            "className": "firstClass",
+            "items": [
+                {
+                    "type": "p",
+                    "content": "Don't eat the fruit in the garden, Eden,, It wasn't in God's natural plan., You were only a rib,, And look at what you did,, To Adam, the father of Man"
+                }
+            ]
+        },
+        {
+            "title": "Skills",
+            "items": [
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/react.png",
+                        "title": "React"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/javascript.png",
+                        "title": "JavaScript"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/html.png",
+                        "title": "Html"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/css.png",
+                        "title": "Css"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/sql.png",
+                        "title": "Sql"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/csharp.png",
+                        "title": "C#"
+                    }
+                }
+            ]
+        }
+    ],
+    "icons":{
+        "down":"images/down-arrow.png",
+        "up":"images/up-arrow.png"
+    }
+}

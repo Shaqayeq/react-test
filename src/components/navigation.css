@@ -1,0 +1,26 @@
+.navigation {
+  height: 40px;
+  background-color: #337743;
+  display: flex;
+    position: fixed;
+  top: 0;
+  width: 100%;
+}
+.floatRight {
+  float: right;
+}
+.floatLeft {
+  float: left;
+}
+.navigationItem{
+  float: right;
+  width: 60px;
+  line-height: 40px;
+  font-size: 18px;
+padding:0 10px;
+}
+.sticky .navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

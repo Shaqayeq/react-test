@@ -1,0 +1,13 @@
+
+.fullpage{
+  height: 101vh;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 42px;
+}
+.sticky .fullpage {
+  padding-top: 42px;
+}
