@@ -19,7 +19,7 @@ export default class TitleSection extends Component {
   };
   render() {
     return (
-      <div  className={ data.sections[0].className}>
+      <div  className={ this.props.className}>
        <Element name="home" className="element" />
         <Fullpage className="first">
           <h1

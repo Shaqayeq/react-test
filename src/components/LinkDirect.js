@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
 
-import data from "../data.json";
 import DownIcon from "./DownIcon";
 
 export default class LinkDirect extends Component {
