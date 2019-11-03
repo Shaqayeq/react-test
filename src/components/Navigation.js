@@ -4,16 +4,6 @@ import LinkDirect from "./LinkDirect";
 import "./navigation.css";
 
 export default class Navigation extends Component {
-  state={
-    className:this.props.className
-  }
-  changeColorTemplate() {
-    let name=this.state.className ==="firstClass" ?"secondClass":"firstClass";
-    this.props.changeClass(name);
-    this.setState({
-      className:name
-    })
-  };
   render() {
     return (
       <div className="navigation">
@@ -26,7 +16,7 @@ export default class Navigation extends Component {
           </div>
         </div>
         <div className="floatLeft">
-          <div className="navigationItem" onClick={this.changeColorTemplate.bind(this)}>
+          <div className="navigationItem" onClick={this.props.changeClass}>
             changeTamplate
           </div>
         </div>

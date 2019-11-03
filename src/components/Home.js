@@ -8,27 +8,21 @@ import Navigation from "./Navigation";
 import "../App.css";
 
 export default class Home extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      className: "firstClass"
-    };
-  }
-  changeClass(className){
-    this.setState({
-      className: className
-    });
+  state = {
+    className: "firstClass"
   };
+  changeClass = () => {
+    let name = this.state.className === "firstClass" ? "secondClass" : "firstClass";
+    this.setState({
+      className: name
+    });
+  }
   render() {
     return (
       <div>
         {/* <StickyContainer>
              <Sticky>{({ style }) => }</Sticky> */}
-        <Navigation
-          className={this.state.className}
-          changeClass={this.changeClass.bind(this)}
-        />
+        <Navigation changeClass={this.changeClass} />
         <TitleSection className={this.state.className} />
         <AboutSection />
         <SkillSection />
